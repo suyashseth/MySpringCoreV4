@@ -6,7 +6,7 @@
 	<bean id="person" class="com.caps.xml.Person">
 		<property name="id" value="101"></property>
 		<property name="name" value="pinka"></property>
-		<property name="job" ref="tester"></property>
+		<property name="job" ref="developer"></property>
 	</bean>
 	
 	<bean id="developer" class="com.caps.xml.Developer"></bean>

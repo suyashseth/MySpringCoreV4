@@ -12,6 +12,10 @@ public class TestPerson {
 		p.getJob().doJob();
 		
 		
+		Developer d =  ctx.getBean(Developer.class);
+		System.out.println(d.toString());
+		
+		
 		
 		
 	}
